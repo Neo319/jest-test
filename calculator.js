@@ -3,7 +3,7 @@ const calculator = {
         return x + y
     },
     subtract (x, y) {
-        return x - y 
+        return y - x 
     },
     mult(x, y) {
         return x * y
@@ -12,4 +12,4 @@ const calculator = {
         return x / y
     }
 }
-module.exports = calculator;
+export default calculator;
