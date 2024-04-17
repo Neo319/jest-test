@@ -22,13 +22,13 @@ test('rounds average down', () => {
 });
 
 
-// //min & max
-// test('finds max of three numbers', () => {
-//     expect(analyzeArray([1, 3, 5]).max).toBe(5)
-// });
-// test('finds min of three numbers', () => {
-//     expect(analyzeArray([1, 3, 5]).min).toBe(1)
-// });
+//min & max
+test('finds max of three numbers', () => {
+    expect(analyzeArray([1, 3, 5]).max).toBe(5)
+});
+test('finds min of three numbers', () => {
+    expect(analyzeArray([1, 3, 5]).min).toBe(1)
+});
 
 
 // //length
