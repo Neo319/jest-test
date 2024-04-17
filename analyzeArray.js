@@ -26,6 +26,6 @@ export default function analyzeArray (input) {
         average: findAverage(),
         min: findMinMax().min,
         max: findMinMax().max,
-        length: 'test'
+        length: input.length
     }
 }

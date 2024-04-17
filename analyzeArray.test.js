@@ -31,7 +31,7 @@ test('finds min of three numbers', () => {
 });
 
 
-// //length
-// test('finds length of five numbers', () => {
-//     expect(analyzeArray([1, 3, 5, 6, 4]).length).toBe(5)  
-// });
+//length
+test('finds length of five numbers', () => {
+    expect(analyzeArray([1, 3, 5, 6, 4]).length).toBe(5)  
+});
